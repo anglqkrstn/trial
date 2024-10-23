@@ -50,3 +50,15 @@ function blowOutCandle() {
         message.style.opacity = '1'; // Fade in the hidden message
     }, 1000); // Delay to allow time for flip animation
 }
+
+// Add an event listener to the "Click here for a birthday surprise" link
+document.getElementById("revealSurprise").addEventListener("click", function() {
+    // Reveal the Hilux image by changing its display style
+    document.getElementById("hiluxImage").style.display = "block";
+});
+
+// Add an event listener to the "gift" word
+document.getElementById("giftLink").addEventListener("click", function() {
+    // Reveal the additional gift link
+    document.getElementById("additionalGift").style.display = "block";
+});
