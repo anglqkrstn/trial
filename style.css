@@ -151,7 +151,7 @@ a:hover {
     color: #FFD700; /* Changes color when hovered */
 }
 
-/* New styles for the red Hilux Conquest image */
+/* Styling for the Hilux image */
 .hilux-image {
     margin-top: 20px;
 }
@@ -159,6 +159,18 @@ a:hover {
 .hilux-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for a 3D effect */
+    border-radius: 10px; /* Rounded corners */
+    /* Removed drop shadow */
+}
+
+/* Add this for revealed text */
+.hilux-image p {
+    font-size: 12px; /* Adjust the size as needed */
+    color: white; /* Ensure the color remains visible on the background */
+}
+
+.hilux-image p span {
+    font-weight: bold; /* Optional: make the word "gift" bold */
+    text-decoration: underline; /* Ensure the "gift" word is underlined */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
